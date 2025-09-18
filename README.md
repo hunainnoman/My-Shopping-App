@@ -81,8 +81,6 @@
 5. App will automatically connect to API via (emulator default url) `http://10.0.2.2:3000`
 
 
-6. **Run on device/simulator**
-
    # For Android
 
    yarn run android
