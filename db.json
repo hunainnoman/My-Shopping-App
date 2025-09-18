@@ -27,13 +27,6 @@
       "price": 249,
       "description": "Wireless earbuds with active noise cancellation",
       "image": "https://images.unsplash.com/photo-1606220945770-b5b6c2c55bf1?w=400&h=400&fit=crop&crop=center"
-    },
-    {
-      "name": "Perfume",
-      "price": 1500,
-      "description": "Floral perfume, notes",
-      "image": "https://images.unsplash.com/photo-1606220945770-b5b6c2c55bf1?w=400&h=400&fit=crop&crop=center",
-      "id": 5
     }
   ],
   "users": [
