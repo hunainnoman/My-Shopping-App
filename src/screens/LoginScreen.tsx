@@ -39,11 +39,10 @@ export const LoginScreen: React.FC = ({ navigation }: any) => {
         setLoading(true);
         try {
             const success = await login(email, password);
-            if (success) {
-                navigation.replace('Home');
-            } else {
+            if (!success) {
                 Alert.alert('Error', 'Invalid email or password');
             }
+            // Navigation will happen automatically when isAuthenticated changes
         } catch (error) {
             Alert.alert('Error', 'Something went wrong. Please try again.');
         } finally {

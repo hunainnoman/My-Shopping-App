@@ -101,7 +101,6 @@ export const HomeScreen: React.FC = ({ navigation }: any) => {
                     onPress: () => {
                         clearCart();
                         logout();
-                        navigation.replace('Login');
                     }
                 },
             ]
