@@ -46,7 +46,6 @@ export const HomeScreen: React.FC = ({ navigation }: any) => {
         }, [products.length])
     );
 
-    console.log('products', products);
 
     // fetch products from api or use fallback dummy data if api fails
     const fetchProducts = async () => {
@@ -165,7 +164,6 @@ export const HomeScreen: React.FC = ({ navigation }: any) => {
                 <TextInput
                     style={styles.searchInput}
                     placeholder="Search products..."
-                    placeholderTextColor="#9CA3AF"
                     value={searchQuery}
                     onChangeText={setSearchQuery}
                 />
