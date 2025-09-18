@@ -72,7 +72,7 @@
 
 ## For Evaluators/Reviewers
 
-### Recommended: Android Emulator (Easiest)
+### Use Android Emulator to run
 
 1. Use **Android Emulator** (not real device)
 2. Run `yarn install`
@@ -80,11 +80,8 @@
 4. Run `yarn run android`
 5. App will automatically connect to API via (emulator default url) `http://10.0.2.2:3000`
 
-6. **Start the Metro**
 
-   yarn start
-
-7. **Run on device/simulator**
+6. **Run on device/simulator**
 
    # For Android
 
